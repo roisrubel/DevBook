@@ -1,0 +1,528 @@
+/*-- Google fonts link up --*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*-- Google fonts link up end --*/
+
+/*--Common Typography start */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Quicksand', sans-serif;
+}
+p, span, input, button{
+    font-family: 'Roboto', sans-serif;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+/*--Common Typography End */
+
+
+
+/*-- Header css start form here --*/
+.header{
+    width: 100%;
+    margin: 20px 20px;
+}
+.logo img{
+    vertical-align: middle;
+}
+.logo span{
+    color: #1c1e2e;
+    font-weight: bold;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+/*-- Header css end here --*/
+
+
+/*-- banner css start from here --*/
+.banner{
+    width: 100%;
+    height: 700px;
+}
+.banner-left{
+    width: 60%;
+    float: left;
+}
+.banner-left .left-content{
+    padding: 60px 100px 0 0;
+}
+.left-content h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.left-content p{
+    font-size: 1.25rem;
+    margin-top: 20px;
+    color: #6d6d6d;
+    line-height: 1.3em;
+    word-spacing: 0.1em;
+}
+.button{
+    margin-top: 30px;
+}
+.button button{
+    padding: 15px 45px;
+    border-radius: 40px;  
+    border: none;
+    background: transparent;
+    outline: none;
+    border: 2px solid #E55713;
+    cursor: pointer;
+}
+.button .btn-left{
+    background: #E55713;
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.button .btn-right{
+    color: #E55713;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+.button .btn-right:hover{
+    background: #E55713;
+    color: #ffffff;
+}
+.comment-box{
+    margin-top: 40px;
+    position: relative;
+}
+.comment-text{
+    background: #F6F8FC;
+    padding: 20px 30px;
+    padding-left: 40px;
+    border-left: 4px solid #E55713;
+}
+.comment-text p{
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 0;
+}
+.comment-icon{
+    height: 30px;
+    width: 30px;
+    background: #F6F8FC;
+    position: absolute;
+    bottom: -15px;
+    left: 40px;
+    transform: rotate(45deg);
+}
+.user{
+    margin-top: 40px;
+}
+.user-image{
+    margin-left: 25px;
+    height: 60px;
+    width: 60px;
+    background: url('../img/profile-5.png') no-repeat center;
+    background-size: cover;
+    float: left;
+}
+.user-desc{
+    width: 400px;
+    float: left;
+    margin-left: 30px;
+}
+.user-desc p{
+    margin: 0;
+    font-size: 15px;
+}
+.user-desc .for-mrgn{
+    margin-top: 15px;
+}
+
+
+.banner-right{
+    width: 40%;
+    float: right;
+    position: relative;
+}
+.banner-right .circle{
+    width: 150px;
+    height: 150px;
+    background: #5cb377;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    right: -30px;
+    box-shadow: 0 0 25px grey;
+}
+.banner-right .circle h1{
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 30px;
+}
+.link-up{
+    text-align: center;
+}
+.link-up a{
+    text-decoration: underline;
+    color: #e46912;
+    font-size: 20px;
+}
+.link-up a:hover{
+    color: #E55713;
+}
+
+/*-- banner css end here --*/
+
+
+/*-- book css start from here --*/
+.book-part{
+    width: 100%;
+    background: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
+    overflow: hidden;
+}
+.book-top{
+    overflow: hidden;
+}
+.book-top-content{
+    padding: 70px 180px;
+    text-align: center;
+}
+.book-top-content h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.book-top-content p{
+    font-size: 1.35rem;
+    text-align: center;
+}
+
+.book-bottom{
+    overflow: hidden;
+}
+.book-bottom-content .list{
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.list i{
+    font-size: 50px;
+    color: #ED6524;
+    margin-bottom: 5px;
+}
+.list h3{
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+.list p{
+    color: #6d6d6d;
+    line-height: 1.7em;
+    font-size: 17px;
+}
+.include{
+    margin-top: 40px;
+    overflow: hidden;
+}
+.include h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+}
+.include-left{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 30px 0 150px;
+}
+.include-right{
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    padding: 0 130px 0 60px;
+}
+.include-right ul li{
+    margin-top: 20px;
+    font-size: 22px;
+    color: #6d6d6d;
+}
+.include-right ul li i{
+    margin-right: 8px;
+    color: #7FCDB8;
+    font-size: 22px;
+}
+.btn{
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding: 0 50px;
+}
+.btn button{
+    padding: 15px 30px;
+    border-radius: 30px;
+    background: #E55713;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+.who-part{
+    margin-top: 40px;
+    overflow: hidden;
+}
+.who-content{
+    
+}
+.who-title{
+    text-align: center;
+    padding: 40px 180px;
+}
+.who-title h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.who-title p{
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.5em;
+    color: #6d6d6d;
+}
+.who-list{
+    margin: 0 315px;
+    overflow: hidden;
+}
+.who-left{
+    width: 10%;
+    float: left;
+    text-align: center;
+}
+.who-left i{
+    color: #7FCDB8;
+    font-size: 23px;
+    margin-top: 3px;
+}
+.who-right{
+    width: 90%;
+    float: left;
+}
+.who-item{
+    margin-top: 15px;
+    overflow: hidden;
+}
+.who-right h4{
+    color: #1c1e2e;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.who-right p{
+    font-size: 16px;
+    color: #6d6d6d;
+}
+
+/*-- book css end here --*/
+
+
+/*-- input css start from here --*/
+.input-area{
+    width: 100%;
+}
+.input-area .input-item{
+    background: #F6F8FC;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 60px 220px;
+}
+.input-item h2{
+    color: #1c1e2e;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.input-item p{
+    font-size: 16px;
+    color: #6d6d6d;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+.input-item .input-1{
+    width: 300px;
+    padding: 15px 5px;
+    border: 1px solid grey;
+    outline: none;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.input-item .input-2{
+    padding: 14px 15px;
+    background: #E55713;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+/*-- input css end here --*/
+
+
+/*-- reviews css start from here --*/
+.reviews{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.reviews-title{
+    text-align: center;
+}
+.reviews-title h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.reviews-title p{
+    font-size: 1.25rem;
+    text-align: center;
+    color: #6d6d6d;
+}
+.r-item{
+    width: 28%;
+    background: #F6F8FC;
+    padding: 20px;
+    padding-top: 30px;
+    position: relative;
+    float: left;
+    margin: 0 10px;
+}
+.r-item .for-i{
+    font-style: italic;
+    color: #6d6d6d;
+}
+.r-user{
+    width: 100%;
+    margin-top: 10px;
+    color: #6d6d6d;
+    overflow: hidden;
+}
+.r-user-left{
+    width: 15%;
+    float: left;
+}
+.r-user-right{
+    width: 85%;
+    float: right;
+    padding: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.quote{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 40%;
+    top: -20px;
+    background: #F5A782;
+    text-align: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.quote i{
+    padding-top: 13px;
+    color: #fff;
+}
+.r-top{
+    width: 100%;
+    margin-top: 50px;
+}
+.r-bottom{
+    width: 100%;
+    padding: 50px 206px;
+}
+.r-btn{
+    text-align: center;
+    margin: 50px 0;
+}
+.r-btn button{
+    padding: 14px 15px;
+    background: #E55713;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer; 
+    font-weight: bold;
+}
+/*-- reviews css end here --*/
+
+
+.author{
+    width: 100%;
+    background: #ED6524;
+}
+.author-content{
+    text-align: center;
+    color: #fff;
+    padding: 40px 150px;
+}
+.author-content img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.author-content h2{
+    font-size: 2.25rem;
+    margin-bottom: 20px;
+}
+.author-content h3{
+    margin: 20px 0 10px 0;
+    font-size: 23px;
+}
+.author-content p{
+    text-align: left;
+    line-height: 1.5em;
+}
+.author-content a{
+    color: #fff;
+    text-decoration: underline;
+}
+.author ul li{
+    display: inline-block;
+    background: #CA561F;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 0 5px;
+}
+.author ul li i{
+    padding-top: 12px;
+}
+
+.theme{
+    background: #ffae87;
+    padding: 50px 0;
+}
+.theme-content{
+    text-align: center;
+    color: #fff;
+}
+.theme-content a{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
